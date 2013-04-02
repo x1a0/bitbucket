@@ -1,0 +1,7 @@
+# POST Service
+
+## Setup
+
+* Copy `config_example.json` and name it `config.json`. In the `config.json` file you can specify all repositories you want to use POST service. The file is pretty much self-explanatory.
+* Use whatever you want to start the app. E.g. `forever start -c coffee ./main.coffee`.
+* You may need to specify HOST and PORT env and open the port in your firewall.
